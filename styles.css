@@ -1,0 +1,103 @@
+/* Estilo general para el cuerpo */
+body {
+  font-family: Arial, sans-serif; /* Usamos la propiedad font-family */
+  margin: 20px;
+  color: #333; /* Propiedad color */
+}
+
+/* Estilo del título */
+h1 {
+  text-align: center; /* Propiedad text-align */
+  font-size: 24px;
+  margin-bottom: 20px; /* Propiedad margin */
+}
+
+/* Estilo de las tablas */
+table {
+  width: 100%; /* Propiedad width */
+  border-collapse: collapse; /* Propiedad border-collapse */
+  margin-bottom: 20px; /* Espacio entre tablas */
+}
+
+/* Estilo para las filas y columnas */
+th, td {
+  border: 1px solid #ccc; /* Propiedad border */
+  text-align: center; /* Centrar el texto */
+  padding: 10px; /* Espacio interno */
+}
+
+/* Fondo y estilo del encabezado de la tabla */
+th {
+  background-color: #f4f4f4; /* Propiedad background-color */
+  font-weight: bold;
+}
+
+/* Fondo de filas impares */
+tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Propiedad nth-child(odd) */
+}
+
+/* Fondo especial para la primera fila */
+tr:first-child th {
+  background-color: #e0e0e0; /* Propiedad first-child */
+  color: #000;
+}
+
+/* Fondo especial para la última fila */
+tr:last-child td {
+  background-color: #e8e8e8; /* Propiedad last-child */
+}
+
+/* Estilo para las celdas de horario */
+.hour {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  width: 10%; /* Ajusta el ancho */
+}
+
+/* Estilo para la pausa (Pati) */
+.break {
+  text-align: center;
+  font-style: italic;
+  background-color: #dff0d8; /* Fondo verde claro */
+  border: none;
+}
+
+/* Estilo de asignaturas (colores específicos) */
+.mp04 {
+  background-color: #fddfdf; /* Rojo claro */
+}
+
+.mp06 {
+  background-color: #dff0d8; /* Verde claro */
+}
+
+.mp07 {
+  background-color: #d9edf7; /* Azul claro */
+}
+
+.mp08 {
+  background-color: #fcf8e3; /* Amarillo claro */
+}
+
+.mp10 {
+  background-color: #fce4d6; /* Naranja claro */
+}
+
+.mp12 {
+  background-color: #e2d6f5; /* Púrpura claro */
+}
+
+.t {
+  background-color: #b3e5fc; /* Azul cielo */
+}
+
+/* Estilo para la tabla de módulos y profesores */
+.professors th {
+  background-color: #ddd;
+}
+
+.professors td {
+  text-align: left; /* Alineación izquierda para profesores */
+  padding-left: 10px;
+}
